@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34AFF2AE2AEF5E0C0022D90B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AFF2AD2AEF5E0C0022D90B /* AppDelegate.swift */; };
+		34AFF2B02AEF5E0C0022D90B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AFF2AF2AEF5E0C0022D90B /* SceneDelegate.swift */; };
+		34AFF2B22AEF5E0C0022D90B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AFF2B12AEF5E0C0022D90B /* ViewController.swift */; };
+		34AFF2B52AEF5E0C0022D90B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AFF2B32AEF5E0C0022D90B /* Main.storyboard */; };
+		34AFF2B82AEF5E0C0022D90B /* PadlanDanica_HW8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34AFF2B62AEF5E0C0022D90B /* PadlanDanica_HW8.xcdatamodeld */; };
+		34AFF2BA2AEF5E0F0022D90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AFF2B92AEF5E0F0022D90B /* Assets.xcassets */; };
+		34AFF2BD2AEF5E0F0022D90B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AFF2BB2AEF5E0F0022D90B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34AFF2AA2AEF5E0C0022D90B /* PadlanDanica-HW8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PadlanDanica-HW8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AFF2AD2AEF5E0C0022D90B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34AFF2AF2AEF5E0C0022D90B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34AFF2B12AEF5E0C0022D90B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34AFF2B42AEF5E0C0022D90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34AFF2B72AEF5E0C0022D90B /* PadlanDanica_HW8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PadlanDanica_HW8.xcdatamodel; sourceTree = "<group>"; };
+		34AFF2B92AEF5E0F0022D90B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34AFF2BC2AEF5E0F0022D90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34AFF2BE2AEF5E0F0022D90B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34AFF2A72AEF5E0C0022D90B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34AFF2A12AEF5E0C0022D90B = {
+			isa = PBXGroup;
+			children = (
+				34AFF2AC2AEF5E0C0022D90B /* PadlanDanica-HW8 */,
+				34AFF2AB2AEF5E0C0022D90B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34AFF2AB2AEF5E0C0022D90B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34AFF2AA2AEF5E0C0022D90B /* PadlanDanica-HW8.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34AFF2AC2AEF5E0C0022D90B /* PadlanDanica-HW8 */ = {
+			isa = PBXGroup;
+			children = (
+				34AFF2AD2AEF5E0C0022D90B /* AppDelegate.swift */,
+				34AFF2AF2AEF5E0C0022D90B /* SceneDelegate.swift */,
+				34AFF2B12AEF5E0C0022D90B /* ViewController.swift */,
+				34AFF2B32AEF5E0C0022D90B /* Main.storyboard */,
+				34AFF2B92AEF5E0F0022D90B /* Assets.xcassets */,
+				34AFF2BB2AEF5E0F0022D90B /* LaunchScreen.storyboard */,
+				34AFF2BE2AEF5E0F0022D90B /* Info.plist */,
+				34AFF2B62AEF5E0C0022D90B /* PadlanDanica_HW8.xcdatamodeld */,
+			);
+			path = "PadlanDanica-HW8";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34AFF2A92AEF5E0C0022D90B /* PadlanDanica-HW8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34AFF2C12AEF5E0F0022D90B /* Build configuration list for PBXNativeTarget "PadlanDanica-HW8" */;
+			buildPhases = (
+				34AFF2A62AEF5E0C0022D90B /* Sources */,
+				34AFF2A72AEF5E0C0022D90B /* Frameworks */,
+				34AFF2A82AEF5E0C0022D90B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PadlanDanica-HW8";
+			productName = "PadlanDanica-HW8";
+			productReference = 34AFF2AA2AEF5E0C0022D90B /* PadlanDanica-HW8.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34AFF2A22AEF5E0C0022D90B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					34AFF2A92AEF5E0C0022D90B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 34AFF2A52AEF5E0C0022D90B /* Build configuration list for PBXProject "PadlanDanica-HW8" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34AFF2A12AEF5E0C0022D90B;
+			productRefGroup = 34AFF2AB2AEF5E0C0022D90B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34AFF2A92AEF5E0C0022D90B /* PadlanDanica-HW8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34AFF2A82AEF5E0C0022D90B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AFF2BD2AEF5E0F0022D90B /* LaunchScreen.storyboard in Resources */,
+				34AFF2BA2AEF5E0F0022D90B /* Assets.xcassets in Resources */,
+				34AFF2B52AEF5E0C0022D90B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34AFF2A62AEF5E0C0022D90B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AFF2B22AEF5E0C0022D90B /* ViewController.swift in Sources */,
+				34AFF2AE2AEF5E0C0022D90B /* AppDelegate.swift in Sources */,
+				34AFF2B02AEF5E0C0022D90B /* SceneDelegate.swift in Sources */,
+				34AFF2B82AEF5E0C0022D90B /* PadlanDanica_HW8.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34AFF2B32AEF5E0C0022D90B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34AFF2B42AEF5E0C0022D90B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34AFF2BB2AEF5E0F0022D90B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34AFF2BC2AEF5E0F0022D90B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34AFF2BF2AEF5E0F0022D90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34AFF2C02AEF5E0F0022D90B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34AFF2C22AEF5E0F0022D90B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LZ22D9N74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PadlanDanica-HW8/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS371L.PadlanDanica-HW8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34AFF2C32AEF5E0F0022D90B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LZ22D9N74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PadlanDanica-HW8/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CS371L.PadlanDanica-HW8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34AFF2A52AEF5E0C0022D90B /* Build configuration list for PBXProject "PadlanDanica-HW8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AFF2BF2AEF5E0F0022D90B /* Debug */,
+				34AFF2C02AEF5E0F0022D90B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34AFF2C12AEF5E0F0022D90B /* Build configuration list for PBXNativeTarget "PadlanDanica-HW8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34AFF2C22AEF5E0F0022D90B /* Debug */,
+				34AFF2C32AEF5E0F0022D90B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34AFF2B62AEF5E0C0022D90B /* PadlanDanica_HW8.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34AFF2B72AEF5E0C0022D90B /* PadlanDanica_HW8.xcdatamodel */,
+			);
+			currentVersion = 34AFF2B72AEF5E0C0022D90B /* PadlanDanica_HW8.xcdatamodel */;
+			path = PadlanDanica_HW8.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34AFF2A22AEF5E0C0022D90B /* Project object */;
+}

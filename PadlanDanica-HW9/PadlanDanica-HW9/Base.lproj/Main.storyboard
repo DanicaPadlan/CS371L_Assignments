@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PadlanDanica_HW9" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="7tT-aJ-k7i" appends="YES" id="nMj-O9-yqn"/>
+                            <outletCollection property="gestureRecognizers" destination="uaQ-bC-TrB" appends="YES" id="ACK-wi-QQN"/>
+                            <outletCollection property="gestureRecognizers" destination="GdX-L1-OMg" appends="YES" id="tHI-rK-Fhy"/>
+                            <outletCollection property="gestureRecognizers" destination="yfn-VD-k1X" appends="YES" id="Pve-5B-HHL"/>
+                            <outletCollection property="gestureRecognizers" destination="4Zk-cO-K1z" appends="YES" id="sXd-Iw-hba"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="7tT-aJ-k7i">
+                    <connections>
+                        <action selector="handleTap:" destination="BYZ-38-t0r" id="V7a-6H-9CB"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="uaQ-bC-TrB">
+                    <connections>
+                        <action selector="handleUpSwipe:" destination="BYZ-38-t0r" id="bg8-Mv-AeQ"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="GdX-L1-OMg">
+                    <connections>
+                        <action selector="handleDownSwipe:" destination="BYZ-38-t0r" id="NeJ-xE-e8L"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="yfn-VD-k1X">
+                    <connections>
+                        <action selector="handleLeftSwipe:" destination="BYZ-38-t0r" id="1Xb-f3-eYT"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="4Zk-cO-K1z">
+                    <connections>
+                        <action selector="handleRightSwipe:" destination="BYZ-38-t0r" id="ra6-u1-me4"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="102" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
